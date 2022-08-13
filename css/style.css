@@ -113,6 +113,7 @@ a {
 }
 
 .products {
+    margin: 0 auto;
     margin-top: 120px;
 }
 .container {
@@ -167,7 +168,7 @@ a {
     align-items:center;
     justify-content: center;
     height: 18px;
-    margin-top: 98px;
+    margin-top: 100px;
 }
 .products_title__underline {
     margin-left: 15px;
@@ -188,21 +189,26 @@ a {
     text-transform: uppercase;
     color: #1D1F2E;
 }
-.featured-mugs {
+.products {
+    margin-top: 100px;
     display: flex;
     height: 657px;
 }
-.featured-mugs__item {
+.products__big-item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 480px;
     height: 657px;
 }
-.featured-mugs__item:last-child {
+.products__big-item:last-child {
     margin-left: 20px;
 }
-.featured-mugs__desc {
+.products__big-img{
+    width: 460px;
+    height: 540px;
+}
+.products__desc {
     margin-top: 35px;
     font-family: 'Karla';
     font-style: normal;
@@ -211,12 +217,12 @@ a {
     text-align: center;
     color: #1D1F2E;
 }
-.featured-mugs__prise {
+.prise {
     display: flex;
     justify-content: center;
     align-items:flex-end
 }
-.featured-mugs__regular-price {
+.price__regular {
     font-family: 'Karla';
     font-style: normal;
     font-weight: 400;
@@ -224,7 +230,7 @@ a {
     text-align: center;
     color: rgba(29, 31, 46, 0.7);
 }
-.featured-mugs__old-price {
+.price__old {
     margin-left: 10px;
     font-family: 'Karla';
     font-style: normal;
@@ -234,7 +240,7 @@ a {
     text-decoration-line: line-through;
     color: rgba(29, 31, 46, 0.4);
 }
-.featured-mugs__new-price {
+.price__new {
     font-family: 'Karla';
     font-style: normal;
     font-weight: 400;
@@ -242,3 +248,30 @@ a {
     text-align: center;
     color: #A25F4B;
 }
+.products-medium {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1633px;
+    padding: 0 3px;
+}
+.products-medium__row {
+    display: flex;
+    justify-content: center;
+}
+.products__medium-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 8.41px;
+    width: 316.8px;
+    height: 497px;
+}
+.products__medium-item:first-child {
+    margin-left: 0;
+}
+.products__medium-item:last-child {
+    height: 493px;
+}
+
