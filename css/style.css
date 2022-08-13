@@ -111,3 +111,134 @@ a {
     text-transform: uppercase;
     color: #1D1F2E;
 }
+
+.products {
+    margin-top: 120px;
+}
+.container {
+    margin: 0 auto;
+    width: 940px;   
+}
+.story {
+   padding: 0 141px;
+   text-align: center;
+}
+.story__title {
+    margin: 0 40px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    /* line-height: 40px; */
+    text-align: center;
+    color: #1D1F2E;
+}
+.story__text {
+    margin-top: 16px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+}
+.story__link {
+    margin: 0 auto;
+    margin-top: 21px;
+    height: 30px;
+    width: 133px;
+}
+.link__desc {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #A25F4B;
+}
+.link__underline {
+    margin-top: 2px;
+    width: 133px;
+    height: 2px;
+    background: rgba(162, 95, 75, 0.2);
+}
+.products_title {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 18px;
+    margin-top: 98px;
+}
+.products_title__underline {
+    margin-left: 15px;
+    width: 30px;
+    height: 1px;
+    background: #ECECED;
+    border-radius: 0px
+
+}
+.products_title__headline {
+    margin-left: 15px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.featured-mugs {
+    display: flex;
+    height: 657px;
+}
+.featured-mugs__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 480px;
+    height: 657px;
+}
+.featured-mugs__item:last-child {
+    margin-left: 20px;
+}
+.featured-mugs__desc {
+    margin-top: 35px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #1D1F2E;
+}
+.featured-mugs__prise {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end
+}
+.featured-mugs__regular-price {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(29, 31, 46, 0.7);
+}
+.featured-mugs__old-price {
+    margin-left: 10px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+}
+.featured-mugs__new-price {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    color: #A25F4B;
+}
