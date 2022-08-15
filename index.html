@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoffeeStyle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -225,23 +228,39 @@
             </div>
         </section>
         <footer class="footer">
-            <div class="footer_about">
-                <a href="#" class="logo">
+            <div class="footer__column">
+                <a href="#" class="logo" src="">
                     <img src="/icons/logo.png" alt="logo" class="logo">
                 </a>
-                <div class="footer__disc">Delivering the best coffee life since 1996. From coffee geeks to the real ones.</div>
+                <div class="footer__disc">Delivering the best coffee life since 1996.<br>
+                    From coffee geeks to the real ones.</div>
                 <div class="copyright">CoffeeStyle Inc. © 1996</div>  
             </div>
-            <div class="footer__menu">
-                <div class="menu__items">
-                    <h3 class="footer_title">Menu</h3>
-                    <a href="#" class="menu__item">Home</a>
-                    <a href="#" class="menu__item">Our Products</a>
-                    <a href="#" class="menu__item">About</a>
-                    <a href="#" class="menu__item">Contact</a>
-                    <a href="#" class="menu__item">Contact</a>
-                </div>
-                
+        
+            <div class="footer__column">
+                <h3 class="footer_title">Menu</h3>
+                    <div class="footer__items">
+                        <a href="#" class="footer__item">Home</a>
+                        <a href="#" class="footer__item">Our Products</a>
+                        <a href="#" class="footer__item">About</a>
+                        <a href="#" class="footer__item">Contact</a>
+                        <a href="#" class="footer__item">Styleguide</a>
+                    </div>
+            </div>
+            <div class="footer__column">
+                <h3 class="footer_title">Follow Us</h3>
+                    <div class="footer__items">
+                        <a href="#" class="footer__item">Facebook</a>
+                        <a href="#" class="footer__item">Instagram</a>
+                        <a href="#" class="footer__item">Pinterest</a>
+                        <a href="#" class="footer__item">Twitter</a>
+                    </div>
+            </div>
+            <div class="footer__column">
+                <h3 class="footer_title">Contact Us</h3>
+                <div class="footer__disc">We’re Always Happy to Help</div>
+                <a href="mailto:us@coffeestyle.io" class="footer__link">us@coffeestyle.io</a>
+                <div class="footer__powered">Powered by Webflow</div>
             </div>
         </footer>
     </div>
